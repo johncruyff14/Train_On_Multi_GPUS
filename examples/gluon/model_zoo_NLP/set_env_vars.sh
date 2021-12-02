@@ -1,0 +1,1 @@
+../model_zoo_CV/set_env_vars.sh

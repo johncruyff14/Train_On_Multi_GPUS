@@ -1,0 +1,21 @@
+task_names=("finetune_CoLA_base_mx1.6.0rc1" \
+            "finetune_SST_base_mx1.6.0rc1" \
+            "finetune_MRPC_base_mx1.6.0rc1" \
+            "finetune_STS-B_base_mx1.6.0rc1" \
+            "finetune_QQP_base_mx1.6.0rc1" \
+            "finetune_MNLI_base_mx1.6.0rc1" \
+            "finetune_XNLI-B_base_mx1.6.0rc1" \
+            "finetune_RTE_base_mx1.6.0rc1" \
+            "finetuned_sst" \
+            "finetuned_mnli" \
+            "finetune_squad1.1_base_mx1.6.0rc1" \
+            "finetune_squad1.1_large_mx1.6.0rc1" \
+            "finetune_squad2.0_large_mx1.6.0rc1")
+
+    task_times_dgx1v=( 169.29  264.03   76.62   96.98 2972.79 4447.25 5749.54   70.42  544.13 3783.42 3490.92    0.0     0.0)
+      task_times_dgx=(   0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0)
+       task_times_t4=( 460.22  791.64  281.70  303.42 9920.62    0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0)
+      task_times_xpl=(   0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0)
+task_times_v100sPCIe=(   0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0)
+
+comp_names=("dgx1v" "dgx" "t4" "xpl" "v100sPCIe")
